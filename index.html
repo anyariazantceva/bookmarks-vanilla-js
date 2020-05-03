@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Bookmarks manager</title>
+</head>
+<body>
+    <div class="bookmarks">
+        <ul class="bookmarks__list">
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="page__title">Add your favorite website to bookmarks!</div>
+        <form class="form">
+            <div class="form__group">
+                <label class="form__label">Title</label>
+                <input type="text" class="form__control form__title" placeholder="Add title..." required>
+            </div>
+            <div class="form__group">
+                <label class="form__label">URL</label>
+                <input type="text" class="form__control form__url" placeholder="Add url..." required>
+            </div>
+            <div class="form__action">
+                <button class="form__btn">Add</button>
+            </div>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
